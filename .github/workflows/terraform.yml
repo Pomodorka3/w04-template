@@ -25,6 +25,8 @@ env:
 jobs:
   terraform:
     name: Terraform
+    environment:
+      name: Azure
     runs-on: ubuntu-latest
     defaults:
       run:
