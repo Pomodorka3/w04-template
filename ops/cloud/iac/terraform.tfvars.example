@@ -1,0 +1,8 @@
+resource_group_name   = "rg-canteen-dev"
+location              = "francecentral"
+name_prefix           = "canteen-dev"
+vm_size               = "Standard_D2s_v3"
+availability_zone     = "3"
+admin_username        = "azureuser"
+admin_ssh_public_key  = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQ..."
+ssh_source_cidr       = "0.0.0.0/0"
